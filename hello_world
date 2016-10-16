@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+greeting = "Hello World!"
+my_name = "Ishmael"
+
+print greeting[0:5], my_name #slice operation
+
+life = ['deen', 'LOL', 'basketball']
+nums = [1, 2, 3]
+
+x=0
+for goal in life:	
+	print nums[x],'. ', goal
+	x+=1
+
